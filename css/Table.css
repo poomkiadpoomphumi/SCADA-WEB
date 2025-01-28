@@ -1,0 +1,76 @@
+thead input {
+  padding: 3px;
+  box-sizing: border-box;
+}
+body {
+  background: url("https://tsoweb.pttplc.com/dist/images/bg-main.jpg?39d73010c82a") no-repeat center center/cover fixed;
+  font-family: Arial, sans-serif;
+}
+.table-scada {
+  text-align: center;
+}
+.thder {
+  font-size: 12px;
+}
+.table-container-data-scada {
+  margin: 15px;
+  background-color: #ffffff;
+  border-radius: 4px;
+  padding: 20px 0px;
+  overflow-x: scroll;
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+a {
+  text-decoration: none !important;
+}
+.table-scada thead {
+  font-size: 10px;
+}
+.table-scada td {
+  font-size: 10px;
+}
+.table-scada th,
+.table-scada td {
+  white-space: nowrap;
+  padding: 5px 10px;
+  font-family: Arial;
+  text-align: center;
+}
+.table-scada tr th:first-child,
+.table-scada td:first-child {
+  position: sticky;
+  width: 100px;
+  left: 0;
+  z-index: 10;
+  background: #FFFACD;
+}
+.table-scada tr th:first-child {
+  z-index: 11;
+}
+#first {
+  position: sticky;
+  top: 0;
+  z-index: 9;
+  background: #fff;
+}
+#mma {
+  background: #FFFACD;
+}
+.TAG {
+  padding-left: 20px;
+  color: #ffffff !important;
+  background-color:rgba(0, 0, 0, 0.7);
+  padding: 20px;
+  margin-top: 0px;
+}
+.text-edit {
+  position: relative;
+  margin-top: 8px;
+  text-align: -webkit-left;
+}
+.input-header {
+  position: relative;
+  text-align: right;
+}
+
+

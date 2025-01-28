@@ -1,0 +1,170 @@
+body {
+  background:url("https://www.pttplc.com/assets/img/_composition/og-1200x630.jpg")no-repeat center center/cover fixed;
+  font-family: Arial, sans-serif;
+}
+.login-container {
+    background-color: #ffffff;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 350px;
+    padding: 30px;
+    margin: 0 auto 15px auto;
+  }
+  
+  
+  .login-heading {
+    font-size: 24px;
+    margin: 10% 0 10% 0;
+  }
+  
+  .password-container {
+    display: none;
+  }
+  
+  .input-field {
+    width: 90%;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+    margin-bottom: 15px;
+  }
+  
+  .input-field:focus {
+    outline: none;
+    border-color: #007bff;
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+  }
+  
+  .login-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .login-button:hover{
+    background-color: #2d93ff;
+    transform: scale(1.05);
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .link {
+    display: block;
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  label {
+    font-size: 1rem;
+    float: left;
+  }
+  
+  .line {
+    border-top: 1px solid #ccc;
+  }
+  
+  .signup {
+    margin-top: 20px;
+  }
+  
+  .footer {
+    text-align: center;
+    margin-top:-10px;
+    margin-bottom:-10px;
+  }
+
+  .form-login{
+    overflow: hidden;
+    padding: 30px;
+    margin: 100px auto 15px auto;
+  }
+  input{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    box-shadow: 0px 2px 5px 0px rgba(155, 155, 155, 0.5);
+  }
+  input:focus {
+    outline: 2px solid #2581dc;
+  }
+  input:hover {
+    border-color: #2581dc;
+  }
+  .alert-danger {
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    transition: background-color 0.3s !important;
+  }
+  .alert {
+    position: relative;
+    padding: 0.75rem 1.25rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 0.25rem;
+}
+.microsoft-login-container {
+    text-align: center; /* Center the text inside the container */
+}
+
+.login-button-microsoft {
+    margin-bottom:15px;
+    padding: 10px 20px; /* Add padding */
+    font-size: 16px; /* Set the font size */
+    cursor: pointer; /* Change cursor on hover */
+    display: flex; /* Use flexbox to align items */
+    align-items: center; /* Center items vertically */
+    justify-content: center; /* Center items horizontally */
+    color: #007bff; /* Text color #007bff*/
+    background-color: #fff;
+    border: 1px solid #007bff;
+    border-radius: 5px; /* Add border radius */
+    width: 100%;
+    transition: background-color 0.3s ease, transform 0.2s ease; /* Smooth transition for background color and transform */
+}
+
+.login-button-microsoft:hover {
+    color: #fff;
+    background-color: #007bff; /* Darker shade of blue on hover */
+    transform: scale(1.05); /* Slightly increase size on hover */
+}
+
+.login-button-microsoft i {
+    font-size: 20px; /* Set the size of the icon */
+    margin-right: 8px; /* Space between icon and text */
+}
+
+.or-container {
+    display: flex;
+    font-size: 13px;
+    align-items: center;
+    text-align: center;
+    margin: 10px 0; /* Adjust margin as needed */
+}
+
+.or-container hr {
+    flex-grow: 1; /* Allow the line to grow */
+    border: none; /* Remove default border */
+    border-top: 1px solid #ccc; /* Set line color */
+}
+
+.or-container span {
+    padding: 0 10px; /* Space around the "OR" text */
+    color: #8f8f8f; /* Change color if necessary */
+    font-weight: bold; /* Make the text bold */
+}
