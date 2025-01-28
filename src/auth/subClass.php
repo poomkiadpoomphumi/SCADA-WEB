@@ -26,9 +26,9 @@ class SCADA extends DataTableScada
     private $newarrGMDR = array();
     private $GMDRHeader = array();
     public $ColumnVisibility = [];
-    private $dbSource = 'pmisdwh-scan.pttplc.com:1521/PMISHS';
-    private $dbUser = 'chonburi';
-    private $dbPassword = 'chonburi';
+    private $dbSource = '';
+    private $dbUser = '';
+    private $dbPassword = '';
     public static function OpenDebug(){
         error_reporting(-1);
         ini_set('display_errors', 'On');
